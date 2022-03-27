@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Demo - Zadanie 6 - WWW i jzyki skryptowe</title>
+    <title>Forum ver 1 - static</title>
     <meta charset="utf-8">
     <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
@@ -10,11 +10,8 @@
 <body>
 <header>
   <h1>
-      Demo - Zadanie 6
+      Forum ver 1 - static
   </h1>
-  <h2>
-      Forum - baza danych typu SQL (warstwa PDO i baza SQLite)
-  </h2>
 </header>
 <nav>
         <a href="../">Home</a>
