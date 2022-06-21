@@ -79,7 +79,6 @@ class Datatable
 
     public function getNames(){ return $this->names; }
     
-    //------ do zaimplementowania ------//    
     public function update($data) {
       $key=$this->key;
       if($this->table=="topic")   {
@@ -94,12 +93,8 @@ class Datatable
       if($this->table=="image")   {
          $query="update ".$this->table." set title='$data[title]' where $key='$data[postid]'";
       }
-      //print_r($data);echo "<br>";
       try{ $r = $this->db->query($query); }
       catch(PDOException $e){ echo $e->getMessage().": ".$e->getCode()."<br />\nQuery: $query"; exit;}
-       //echo "<p>Metoda <b>Datatable::get()</b> nie ma implementacji.Uzupełnij kod tej metody.</p>\n";
-       //exit;
-
     }
 
     public function delete($id,$key=false) {
